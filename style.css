@@ -1,0 +1,134 @@
+:root {
+  --color-primary-dark: #1b1b1b;
+  --color-secondary-dark: #4e4e4e;
+  --color-accent: #00ced1; /* Dark Turquoise */
+  --color-light-background: #f8f8f8;
+  --color-light-text: #e0e0e0;
+  --color-border-light: #cccccc;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-light-background);
+}
+/*
+* {
+  border: solid red 1px;
+}
+  */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.links {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+.logo {
+  font-size: 30px;
+  color: var(--color-accent);
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.main-info {
+  background-color: var(--color-primary-dark);
+  height: 60vh;
+  text-align: center;
+}
+
+.main-info > h1 {
+  font-size: 66px;
+  padding-top: 6vh;
+  color: var(--color-accent);
+}
+
+.main-info > p {
+  font-size: 20px;
+  color: var(--color-light-text);
+  margin-bottom: 50px;
+}
+
+.main-info > a {
+  background-color: var(--color-accent);
+  color: #1b1b1b;
+  font-size: 17px;
+  padding: 14px;
+  border-radius: 20px;
+}
+
+.text {
+  color: var(--color-secondary-dark);
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 7vh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  color: var(--color-accent);
+  text-align: center;
+}
+
+.first,
+.second {
+  padding: 20px;
+  width: 30vw;
+  border: solid 2px;
+  border-color: var(--color-border-light);
+  border-radius: 20px;
+  background-color: var(--color-light-background);
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 2px;
+  background-color: var(--color-primary-dark);
+  height: 30vh;
+  text-align: center;
+}
+
+.footer > p {
+  font-size: 20px;
+  color: var(--color-light-text);
+  margin-bottom: 40px;
+}
+
+.footer > h3 {
+  font-size: 30px;
+}
+
+.footer > a {
+  background-color: var(--color-secondary-dark);
+  font-size: 20px;
+  color: var(--color-primary-dark);
+  font-weight: 400;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.law {
+  height: 6vh;
+  color: var(--color-secondary-dark);
+  padding-top: 20px;
+  text-align: center;
+}
